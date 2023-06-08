@@ -9,10 +9,10 @@
 mkdir /home/mtproxy && cd /home/mtproxy
 
 ## 开始安装
-curl -s -o mtproxy.sh https://raw.githubusercontent.com/sunpma/mtp/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
+curl -s -o mtproxy.sh https://raw.githubusercontent.com/RuiZengDev/MTProxy-TLS/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
 ```
 
- ![demo.png](https://raw.githubusercontent.com/sunpma/mtp/master/demo.png)
+![image](https://github.com/RuiZengDev/MTProxy-TLS/assets/132585299/dbb4eb35-6dfd-4bf8-9c01-137756447f7f)
 
 ## 使用
 
@@ -60,8 +60,3 @@ vi /etc/crontab
 
 @reboot root nohup bash /home/mtproxy/mtproxy.sh start > /dev/null 2>&1 &
 ```
-
-## 备用项目
-[备用项目一、](https://github.com/jing5460/MTProxy-TLS/blob/master/备用项目.md)
-
-[备用项目二、](https://github.com/jing5460/MTProxy)
